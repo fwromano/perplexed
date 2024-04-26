@@ -21,6 +21,7 @@ source ~/.venvs/aienv/bin/activate
 ```
 
 ### 3. Export your Groq & Tavily API Key
+Generate Keys from https://console.groq.com and https://app.tavily.com
 
 ```shell
 export GROQ_API_KEY=***
