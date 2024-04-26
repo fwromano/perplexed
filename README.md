@@ -1,28 +1,39 @@
 # Research Assistant powered by Groq
 
-> Note: Fork and clone this repository if needed
+This application is a research tool designed to leverage the capabilities of Groq's hardware accelerated computing and Tavily API. Follow the steps below to set up and run the application on your local machine.
 
-### 1. Create a virtual environment
+## Setup Instructions
+
+### 1. Fork and Clone the Repository
+
+First, fork the repository to your GitHub account by clicking on the "Fork" button at the top right of this page. Then, clone the forked repository to your local machine:
+
+```shell
+git clone https://github.com/fwromano/perplexed.git
+cd perplexed
+
+
+### 2. Create a virtual environment
 
 ```shell
 python3 -m venv ~/.venvs/aienv
 source ~/.venvs/aienv/bin/activate
 ```
 
-### 2. Export your Groq & Tavily API Key
+### 3. Export your Groq & Tavily API Key
 
 ```shell
 export GROQ_API_KEY=***
 export TAVILY_API_KEY=***
 ```
 
-### 3. Install libraries
+### 4. Install libraries
 
 ```shell
 pip install -r requirements.txt
 ```
 
-### 4. Run Streamlit App
+### 5. Run Streamlit App
 
 ```shell
 streamlit run app.py
