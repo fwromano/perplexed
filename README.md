@@ -11,7 +11,7 @@ First, fork the repository to your GitHub account by clicking on the "Fork" butt
 ```shell
 git clone https://github.com/fwromano/perplexed.git
 cd perplexed
-'''
+```
 
 ### 2. Create a virtual environment
 
